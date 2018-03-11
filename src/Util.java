@@ -61,12 +61,18 @@ public class Util {
         }
 
 
+        System.out.println("nuevo grafo +"+n);
         for (int i=0; i < n ; i++)
         {
             GeographicNode node1 = geometricNodeGraph.getNode(i);
+
             for (int j=0; j < n; j++) {
                 GeographicNode node2 = geometricNodeGraph.getNode(j);
-                double c = Math.sqrt(Math.pow(Math.abs(node1.x-node2.x),2)+Math.pow(Math.abs(node2.y-node2.y),2));
+                double c = Math.sqrt(Math.pow(Math.abs(node1.x-node2.x),2)+Math.pow(Math.abs(node1.y-node2.y),2));
+
+                System.out.println(node1.getLabel());
+                System.out.println(node2.getLabel());
+                System.out.println(c+","+r);
                 if (c <= r)
                 {
                     geometricNodeGraph.addEdge(i,j);
