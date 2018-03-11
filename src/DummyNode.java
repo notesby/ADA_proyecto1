@@ -7,14 +7,6 @@ public class DummyNode implements Node {
         this.value = value;
     }
 
-    public void setValue(int value) {
-        this.value = value;
-    }
-
-    public int getValue() {
-        return value;
-    }
-
     @Override
     public String getId() {
         return "\""+value+"\"";
