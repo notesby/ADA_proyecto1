@@ -3,7 +3,8 @@ import graph.Graph;
 public class Main {
 
     public static void main(String[] args) {
-        /*Graph graphErdos30 = Util.newErdosAndReyisModel(30,30);
+        //Erdos And Reyis
+        Graph graphErdos30 = Util.newErdosAndReyisModel(30,30);
         Util.saveGraph("ErdosAndReyis(30).gdf",graphErdos30);
         graphErdos30 = null;
 
@@ -15,6 +16,7 @@ public class Main {
         Util.saveGraph("ErdosAndReyis(500).gdf",graphErdos500);
         graphErdos500 = null;
 
+        //Gilbert
         Graph graphGilbert30 = Util.newGilbertModel(30,0.05);
         Util.saveGraph("Gilbert(30).gdf",graphGilbert30);
         graphGilbert30 = null;
@@ -25,8 +27,9 @@ public class Main {
 
         Graph graphGilbert500 = Util.newGilbertModel(500,0.1);
         Util.saveGraph("Gilbert(500).gdf",graphGilbert500);
-        graphGilbert500 = null;*/
+        graphGilbert500 = null;
 
+        //Geographic
         Graph graphGeographic30 = Util.newGeographicModel(30,0.1);
         Util.saveGraph("Geographic(30).gdf",graphGeographic30);
         graphGeographic30 = null;
@@ -39,7 +42,8 @@ public class Main {
         Util.saveGraph("Geographic(500).gdf",graphGeographic500);
         graphGeographic500 = null;
 
-        /*Graph graphBarabasi30 = Util.newBarabasiAlbertModel(30,30);
+        //Barabasi Albert
+        Graph graphBarabasi30 = Util.newBarabasiAlbertModel(30,30);
         Util.saveGraph("BarabasiAlbert(30).gdf",graphBarabasi30);
         graphBarabasi30 = null;
 
@@ -49,6 +53,6 @@ public class Main {
 
         Graph graphBarabasi500 = Util.newBarabasiAlbertModel(500,50);
         Util.saveGraph("BarabasiAlbert(500).gdf",graphBarabasi500);
-        graphBarabasi500 = null;*/
+        graphBarabasi500 = null;
     }
 }

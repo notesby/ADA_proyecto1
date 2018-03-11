@@ -60,8 +60,6 @@ public class Util {
             geometricNodeGraph.addNode(new GeographicNode(random.nextDouble(),random.nextDouble()));
         }
 
-
-        System.out.println("nuevo grafo +"+n);
         for (int i=0; i < n ; i++)
         {
             GeographicNode node1 = geometricNodeGraph.getNode(i);
@@ -70,9 +68,6 @@ public class Util {
                 GeographicNode node2 = geometricNodeGraph.getNode(j);
                 double c = Math.sqrt(Math.pow(Math.abs(node1.x-node2.x),2)+Math.pow(Math.abs(node1.y-node2.y),2));
 
-                System.out.println(node1.getLabel());
-                System.out.println(node2.getLabel());
-                System.out.println(c+","+r);
                 if (c <= r)
                 {
                     geometricNodeGraph.addEdge(i,j);
