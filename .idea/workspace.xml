@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcabd575-4587-4ab8-95f0-0fabc74f929d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BarabasiAlbert(100).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/BarabasiAlbert(30).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/BarabasiAlbert(500).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ErdosAndReyis(100).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ErdosAndReyis(30).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ErdosAndReyis(500).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Geographic(100).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Geographic(30).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Geographic(500).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Gilbert(100).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Gilbert(30).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Gilbert(500).gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ADA_proyecto1/DummyNode.class" afterPath="$PROJECT_DIR$/out/production/ADA_proyecto1/DummyNode.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ADA_proyecto1/Main.class" afterPath="$PROJECT_DIR$/out/production/ADA_proyecto1/Main.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ADA_proyecto1/graph/AbstractGraph.class" afterPath="$PROJECT_DIR$/out/production/ADA_proyecto1/graph/AbstractGraph.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ADA_proyecto1/graph/Edge.class" afterPath="$PROJECT_DIR$/out/production/ADA_proyecto1/graph/Edge.class" />
-      <change beforePath="$PROJECT_DIR$/prueba1.gdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/ADA_proyecto1/graph/DiGraph.class" afterPath="$PROJECT_DIR$/out/production/ADA_proyecto1/graph/DiGraph.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ADA_proyecto1/graph/Graph.class" afterPath="$PROJECT_DIR$/out/production/ADA_proyecto1/graph/Graph.class" />
       <change beforePath="$PROJECT_DIR$/src/graph/AbstractGraph.java" afterPath="$PROJECT_DIR$/src/graph/AbstractGraph.java" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Edge.java" afterPath="$PROJECT_DIR$/src/graph/Edge.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +33,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="206">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -97,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/graph/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -119,21 +115,21 @@
       <file leaf-file-name="AbstractGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/graph/AbstractGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-983">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="181">
+              <caret line="67" column="17" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
               <folding>
                 <element signature="method#getMaxDegree#0;class#AbstractGraph#0" expanded="false" />
                 <element signature="method#getMinDegree#0;class#AbstractGraph#0" expanded="false" />
-                <element signature="e#3954#3955#0" expanded="true" />
-                <element signature="e#3999#4000#0" expanded="true" />
-                <element signature="e#4037#4038#0" expanded="true" />
-                <element signature="e#4082#4083#0" expanded="true" />
-                <element signature="e#4120#4121#0" expanded="true" />
-                <element signature="e#4155#4156#0" expanded="true" />
-                <element signature="e#4188#4189#0" expanded="true" />
-                <element signature="e#4223#4224#0" expanded="true" />
-                <element signature="e#4271#4272#0" expanded="true" />
-                <element signature="e#4311#4312#0" expanded="true" />
+                <element signature="e#4244#4245#0" expanded="true" />
+                <element signature="e#4289#4290#0" expanded="true" />
+                <element signature="e#4327#4328#0" expanded="true" />
+                <element signature="e#4372#4373#0" expanded="true" />
+                <element signature="e#4410#4411#0" expanded="true" />
+                <element signature="e#4445#4446#0" expanded="true" />
+                <element signature="e#4478#4479#0" expanded="true" />
+                <element signature="e#4513#4514#0" expanded="true" />
+                <element signature="e#4561#4562#0" expanded="true" />
+                <element signature="e#4601#4602#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,9 +187,10 @@
         <option value="$PROJECT_DIR$/src/GeographicNode.java" />
         <option value="$PROJECT_DIR$/src/DummyNode.java" />
         <option value="$PROJECT_DIR$/src/graph/Edge.java" />
-        <option value="$PROJECT_DIR$/src/graph/AbstractGraph.java" />
         <option value="$PROJECT_DIR$/src/Util.java" />
+        <option value="$PROJECT_DIR$/src/graph/AbstractGraph.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -507,35 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/graph/AbstractGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-983">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="method#getMaxDegree#0;class#AbstractGraph#0" expanded="false" />
-            <element signature="method#getMinDegree#0;class#AbstractGraph#0" expanded="false" />
-            <element signature="e#3954#3955#0" expanded="true" />
-            <element signature="e#3999#4000#0" expanded="true" />
-            <element signature="e#4037#4038#0" expanded="true" />
-            <element signature="e#4082#4083#0" expanded="true" />
-            <element signature="e#4120#4121#0" expanded="true" />
-            <element signature="e#4155#4156#0" expanded="true" />
-            <element signature="e#4188#4189#0" expanded="true" />
-            <element signature="e#4223#4224#0" expanded="true" />
-            <element signature="e#4271#4272#0" expanded="true" />
-            <element signature="e#4311#4312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BarabasiAlbert(30).gdf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-447">
@@ -568,6 +536,43 @@
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#469#470#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/AbstractGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="67" column="17" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="method#getMaxDegree#0;class#AbstractGraph#0" expanded="false" />
+            <element signature="method#getMinDegree#0;class#AbstractGraph#0" expanded="false" />
+            <element signature="e#4244#4245#0" expanded="true" />
+            <element signature="e#4289#4290#0" expanded="true" />
+            <element signature="e#4327#4328#0" expanded="true" />
+            <element signature="e#4372#4373#0" expanded="true" />
+            <element signature="e#4410#4411#0" expanded="true" />
+            <element signature="e#4445#4446#0" expanded="true" />
+            <element signature="e#4478#4479#0" expanded="true" />
+            <element signature="e#4513#4514#0" expanded="true" />
+            <element signature="e#4561#4562#0" expanded="true" />
+            <element signature="e#4601#4602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

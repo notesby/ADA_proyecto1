@@ -63,9 +63,26 @@ abstract class AbstractGraph<T extends Node> {
 
             if (node1 != null && node2 != null) {
                 Edge edge = new Edge(node1, node2);
-                edges.add(edge);
+
+                if (!hasEdge(edge))
+                {
+                    edges.add(edge);
+                }
             }
         }
+    }
+
+    public boolean hasEdge(Edge edge)
+    {
+        for (Edge edge1:edges)
+        {
+            if (edge == edge1)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public void removeEdge(int index){
