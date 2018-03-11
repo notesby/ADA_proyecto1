@@ -17,11 +17,11 @@ public class Edge<T extends Node> {
         this.n2 = n2;
     }
 
-    public void setN1(T n1) {
+    void setN1(T n1) {
         this.n1 = n1;
     }
 
-    public void setN2(T n2) {
+    void setN2(T n2) {
         this.n2 = n2;
     }
 

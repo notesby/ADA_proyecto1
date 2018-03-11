@@ -101,7 +101,7 @@ abstract class AbstractGraph<T extends Node> {
         if (validateIndex(index,nodes))
         {
             Node node = nodes.get(index);
-            if (node == null)
+            if (node != null)
             {
                 for (Edge edge:edges)
                 {

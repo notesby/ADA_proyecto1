@@ -15,11 +15,11 @@ public class Main {
         Util.saveGraph("ErdosAndReyis(500).gdf",graphErdos500);
         graphErdos500 = null;
 
-        Graph graphGilbert30 = Util.newGilbertModel(30,0.5);
+        Graph graphGilbert30 = Util.newGilbertModel(30,0.05);
         Util.saveGraph("Gilbert(30).gdf",graphGilbert30);
         graphGilbert30 = null;
 
-        Graph graphGilbert100 = Util.newGilbertModel(100,0.2);
+        Graph graphGilbert100 = Util.newGilbertModel(100,0.025);
         Util.saveGraph("Gilbert(100).gdf",graphGilbert100);
         graphGilbert100 = null;
 
