@@ -9,7 +9,7 @@ public class DummyNode implements Node {
 
     @Override
     public String getId() {
-        return "\""+value+"\"";
+        return value+"";
     }
 
     @Override

@@ -18,7 +18,11 @@ public class Util {
         Random random = new Random();
         for (int i=0; i < m ; i++)
         {
-            dummyNodeGraph.addEdge(random.nextInt(n),random.nextInt(n));
+            int n1 = random.nextInt(n);
+            int n2 = random.nextInt(n);
+            if (n1 != n2) {
+                dummyNodeGraph.addEdge(n1, n2);
+            }
         }
 
         return dummyNodeGraph;
@@ -38,7 +42,7 @@ public class Util {
         {
             for (int j=0; j < n; j++)
             {
-                if (random.nextDouble() < p)
+                if (i != j && random.nextDouble() < p)
                 {
                     dummyNodeGraph.addEdge(i,j);
                 }
@@ -57,7 +61,7 @@ public class Util {
         Random random = new Random();
         for (int i=0;i < n;i++)
         {
-            geometricNodeGraph.addNode(new GeographicNode(random.nextDouble(),random.nextDouble()));
+            geometricNodeGraph.addNode(new GeographicNode(i,random.nextDouble(),random.nextDouble()));
         }
 
         for (int i=0; i < n ; i++)
@@ -68,7 +72,7 @@ public class Util {
                 GeographicNode node2 = geometricNodeGraph.getNode(j);
                 double c = Math.sqrt(Math.pow(Math.abs(node1.x-node2.x),2)+Math.pow(Math.abs(node1.y-node2.y),2));
 
-                if (c <= r)
+                if (i != j && c <= r)
                 {
                     geometricNodeGraph.addEdge(i,j);
                 }
@@ -89,7 +93,7 @@ public class Util {
             for (int j=0;j < n;j++)
             {
                 double p = 1-graph.getDegreeOfNode(j)/d;
-                if (random.nextDouble() <= p)
+                if (i != j && random.nextDouble() <= p)
                 {
                     graph.addEdge(i,j);
                 }
@@ -103,7 +107,7 @@ public class Util {
     {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName));
-            writer.write(graph.getGDFFormat());
+            writer.write(graph.getGVFormat("a"));
             writer.close();
         }
         catch (Exception e)

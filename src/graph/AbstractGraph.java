@@ -240,4 +240,18 @@ abstract class AbstractGraph<T extends Node> {
 
         return graph;
     }
+
+    public String getGVFormat(String name){
+        String header = "graph "+name+" { \n";
+
+        String graph = header;
+
+        for (Edge edge:edges){
+            graph += edge.getN1().getId()+"--"+edge.getN2().getId()+";\n";
+        }
+
+        graph += "}";
+
+        return graph;
+    }
 }
