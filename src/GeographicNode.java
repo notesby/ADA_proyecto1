@@ -4,6 +4,7 @@ public class GeographicNode implements Node {
     int id;
     double x;
     double y;
+    int value;
 
     GeographicNode(int id,double x, double y){
         this.id = id;
@@ -18,6 +19,16 @@ public class GeographicNode implements Node {
 
     @Override
     public String getLabel() {
-        return "\"("+x+","+y+")\"";
+        return "Node-"+id+" ("+value+")";
+    }
+
+    @Override
+    public Integer getValue() {
+        return value;
+    }
+
+    @Override
+    public void setValue(int value) {
+        this.value = value;
     }
 }

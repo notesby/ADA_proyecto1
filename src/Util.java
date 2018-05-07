@@ -1,8 +1,10 @@
+import graph.Edge;
 import graph.Graph;
+import graph.Node;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.util.Random;
+import java.util.*;
 
 public class Util {
 
@@ -115,5 +117,14 @@ public class Util {
             e.printStackTrace();
         }
 
+    }
+
+    public static void addRandomWeight(Graph<Node> graph)
+    {
+        Random random = new Random();
+        for (int i=0;i< graph.getEdgesCount();i++)
+        {
+            graph.addWeight(i,random.nextInt(100));
+        }
     }
 }

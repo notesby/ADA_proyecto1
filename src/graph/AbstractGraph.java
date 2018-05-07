@@ -1,6 +1,9 @@
 package graph;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.PriorityQueue;
+import java.util.Stack;
 
 abstract class AbstractGraph<T extends Node> {
     protected ArrayList<T> nodes;
@@ -21,6 +24,11 @@ abstract class AbstractGraph<T extends Node> {
         }
 
         return node;
+    }
+
+    public int getIndex(Node node)
+    {
+        return nodes.indexOf(node);
     }
 
     public void addNode(T node){
@@ -53,6 +61,21 @@ abstract class AbstractGraph<T extends Node> {
         }
 
         return null;
+    }
+
+    public int getEdgeIndex(Edge edge)
+    {
+        return edges.indexOf(edge);
+    }
+
+    public void addWeight(int index,int weight)
+    {
+        if (index > 0 && index < edges.size())
+        {
+            Edge edge1 = edges.get(index);
+            edge1.setWeight(weight);
+        }
+
     }
 
     public void addEdge(int index1, int index2){
@@ -250,8 +273,15 @@ abstract class AbstractGraph<T extends Node> {
             graph += edge.getN1().getId()+"--"+edge.getN2().getId()+";\n";
         }
 
+        for (Node n:nodes)
+        {
+            if (!n.getLabel().isEmpty())
+                graph += n.getId()+" "+"[label=\""+n.getLabel()+"\"]"+";\n";
+        }
+
         graph += "}";
 
         return graph;
     }
+
 }

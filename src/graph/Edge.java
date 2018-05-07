@@ -3,6 +3,7 @@ package graph;
 public class Edge<T extends Node> {
     private T n1;
     private T n2;
+    private int weight;
 
 
     Edge(Edge<T> edge)
@@ -25,11 +26,19 @@ public class Edge<T extends Node> {
         this.n2 = n2;
     }
 
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
     public final T getN1() {
         return n1;
     }
 
     public final T getN2() {
         return n2;
+    }
+
+    public int getWeight() {
+        return weight;
     }
 }

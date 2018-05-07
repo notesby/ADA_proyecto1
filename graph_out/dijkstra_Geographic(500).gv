@@ -1,0 +1,8 @@
+graph a { 
+2--127;
+2--224;
+2 [label="Node-2 (0)"];
+127 [label="Node-127 (0)"];
+2 [label="Node-2 (0)"];
+224 [label="Node-224 (52)"];
+}
